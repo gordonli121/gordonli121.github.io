@@ -21,7 +21,7 @@ After the course, I built a dynamic single-page web app that mimick the essentia
 
 With no CS degree or any prior experience, it was quite difficult to find a job during the pandemics. Luckily, I picked up a contract intern position in a start-up called MeaningfulWork. I wore many hats and gained experience in frontend, backend, as well as DevOps work like CI/CD. During this internship, I got to know AWS and managed to obtain an [AWS Solutions Architect Certificate](https://www.credly.com/badges/48710788-5271-4196-9f5b-d7853b0e9bd8?source=linked_in_profile) during my free time. It was such an enjoyment to work with a group of passionate young talents towards a meaningful goal - facilitate positive social impact and give back to the community.
 
-Nine months after my decision to change career path, with the skillset I have accumulated, I finally landed a full-time job as a full-stack engineer in an innovation team at Scotiabank, where we create MVP and PoC projects related to fintech and digital transformation initiatives.
+Nine months after my decision to change career path, with the skillset I had accumulated, I finally landed a full-time job as a full-stack engineer in an innovation team at Scotiabank, where we create MVP and PoC projects related to fintech, data analytics, and digital transformation initiatives.
 
 ---
 
@@ -32,7 +32,6 @@ project section, will link to new pages to showcase each project
 but here will be a grid format showcasing some screenshots of my past projects
 
 when clicked on, the screenshots will redirect to a new page with link:
-
 /projects/projectName and maybe show a button which can redirect user to my github repo
 
 | <img width="300px" src="assets/images/gordonli.png"> | <img width="300px" src="assets/images/gordonli.png"> |

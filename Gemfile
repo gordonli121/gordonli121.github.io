@@ -31,4 +31,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "webrick", "~> 1.7"
 
-gem "jekyll-theme-hacker", "~> 0.1.2"
+# gem "jekyll-theme-hacker", "~> 0.1.2"
+gem "jekyll-theme-architect", "~> 0.1.1"
