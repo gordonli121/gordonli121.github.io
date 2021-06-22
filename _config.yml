@@ -28,7 +28,7 @@ twitter_username: Gordon22751388
 github_username: gordonli121
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 # Exclude from processing.
