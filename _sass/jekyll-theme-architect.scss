@@ -180,11 +180,12 @@ hr {
   margin-bottom: 1em;
   border: 0;
   border-top: solid 1px #ddd;
+  //   border-top: solid 3px #9ddcff;
 }
 
 table {
   width: 100%;
-  border: 1px solid #ebebeb;
+  border: none; //#ebebeb
 }
 
 th {
@@ -194,7 +195,7 @@ th {
 td {
   font-weight: 300;
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: none; //#ebebeb
 }
 
 form {
@@ -206,7 +207,7 @@ form {
 
 #main-content h1 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
@@ -225,7 +226,7 @@ form {
 #main-content h2 {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
@@ -300,10 +301,22 @@ h6:before {
 
 p {
   margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Architects Daughter", "Helvetica Neue";
 }
 
 a {
   text-decoration: none;
+}
+
+a img {
+  transition: transform 0.3s;
+  margin: 70px auto;
+  border-radius: 5px;
+}
+
+a img:hover {
+  transform: scale(1.5);
 }
 
 p a {
@@ -321,6 +334,8 @@ ul {
   list-style-position: inside;
   list-style: disc;
   padding-left: 20px;
+  font-size: 18px;
+  font-family: "Architects Daughter", "Helvetica Neue";
 }
 
 ol {
