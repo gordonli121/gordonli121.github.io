@@ -35,11 +35,19 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="button"
+        <a
+          href="{{ site.github.repository_url }}"
+          class="button"
+          target="_blank"
+          rel="noreferrer"
           ><small>View this page on</small> GitHub</a
         >
         {% endif %} {% if site.github.is_user_page %}
-        <a href="{{ site.github.owner_url }}" class="button"
+        <a
+          href="{{ site.github.owner_url }}"
+          class="button"
+          target="_blank"
+          rel="noreferrer"
           ><small>Follow me on</small> GitHub</a
         >
         {% endif %}
@@ -60,6 +68,21 @@
         <section id="main-content">{{ content }}</section>
 
         <aside id="sidebar">
+          <h2>Technical Skills:</h2>
+          <ul>
+            <li>MERN stack</li>
+            <li>JavaScript ES6</li>
+            <li>Redux</li>
+            <li>AWS</li>
+            <li>Socket.io</li>
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Python</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
+            <li>html</li>
+            <li>css</li>
+          </ul>
           {% if site.show_downloads %}
           <a href="{{ site.github.zip_url }}" class="button">
             <small>Download</small>
